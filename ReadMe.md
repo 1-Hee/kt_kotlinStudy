@@ -17,6 +17,8 @@ Part2 부터는 이 기능을 사용하지 않고 'kotlin-extension'을 대신�
 
 사이트에서 자세히 설명되어 있으나, 간략히 소개하자면
 - gradle 파일의  android 에서 buildfeatures의 viewBinding 속성을 true로 설정한다
+![img2](https://user-images.githubusercontent.com/79094527/163664931-2421163d-d371-4cdc-b1cb-c6f4c6c10303.PNG)
 - 메인 액티비티 파일에서 아래와 같이 변수를 생성한다
+![img1](https://user-images.githubusercontent.com/79094527/163664898-066f182d-23b1-4cbf-b6d8-3fbba4bc0f99.PNG)
 - onCreate 함수 밑에 setContentView(변수명.root)를 작성한다.
 - 기존의 textView =~~~ 라고 쓰던 'kotlin-extension'문법은 변수.textView = ~~ 이런식으로 쓰기만 하면 끝! :baby_chick:
