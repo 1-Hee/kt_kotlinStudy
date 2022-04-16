@@ -18,7 +18,7 @@ Part2 부터는 이 기능을 사용하지 않고 'kotlin-extension'을 대신�
 사이트에서 자세히 설명되어 있으나, 간략히 소개하자면
 
 - gradle 파일의  android 에서 buildfeatures의 viewBinding 속성을 true로 설정한다
-![img2](https://user-images.githubusercontent.com/79094527/163664931-2421163d-d371-4cdc-b1cb-c6f4c6c10303.PNG)
+> ![img2](https://user-images.githubusercontent.com/79094527/163664931-2421163d-d371-4cdc-b1cb-c6f4c6c10303.PNG)
 
 - 메인 액티비티 파일에서 아래와 같이 변수를 생성한다
 
