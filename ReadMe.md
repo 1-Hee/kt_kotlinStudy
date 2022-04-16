@@ -10,7 +10,7 @@
 뷰바인딩 방법을 사용해서 코드를 작성하였다. :sunny: 
 
 ---
-> 'kotlin-extension'을 대체하는 방법은 여러가지 이지만, 이곳 repository에서 default로 채택한 뷰바인딩 방법은 아래의 사이트를 참조함
+> **'kotlin-extension'** 을 대체하는 방법은 여러가지이지만, 이곳 repository에서 **default** 로 채택한 뷰바인딩 방법은 아래의 사이트를 참조함
 
 [https://flow9.net/bbs/board.php?bo_table=android&wr_id=27](https://flow9.net/bbs/board.php?bo_table=android&wr_id=27)
 
