@@ -24,3 +24,7 @@
 > ![img1](https://user-images.githubusercontent.com/79094527/163664898-066f182d-23b1-4cbf-b6d8-3fbba4bc0f99.PNG)
 - onCreate 함수 밑에 setContentView(변수명.root)를 작성한다.
 - 기존의 textView =~~~ 라고 쓰던 'kotlin-extension'문법은 변수.textView = ~~ 이런식으로 쓰기만 하면 끝! :baby_chick:
+
+*안드로이드 개발자 사이트에서 공식적으로 안내하는 뷰 바인딩 사용법*
+[Android Developer](https://developer.android.com/topic/libraries/view-binding?hl=ko#kotlin)
+위 사이트로 접속하면 문법은 살짝 다르지만 결과는 역시나 같은 뷰 바인딩 ( 뷰 결합 ) 방법을 소개하고 있다.
