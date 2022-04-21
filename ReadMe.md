@@ -1,13 +1,10 @@
 ### :exclamation: notofications
 ---
-안드로이드 스튜디오에서는 코틀린에서만 **'kotlin-extension'** 이라는 기능을 
-지원하여 뷰 바인딩을 편하게 할 수 있도록 지원했다.
-그러나, 이 기능을 통해 뷰바인딩을 하면, 
-바인딩 된 xml 파일이 제거되었을 때도 코드에서 
-검출을 못하는 치명적 단점으로 인해 결국 **deprecated** 되었는데,
-여기 repository의 **UI Programming**에서는 **'kotlin-extension'** 이라는 기능을 사용했으나, 
-**Part2** 부터는 이 기능을 사용하지 않고 'kotlin-extension'을 대신하는
-뷰바인딩 방법을 사용해서 코드를 작성하였다. :sunny: 
+안드로이드 스튜디오에서는 코틀린에서만 **'kotlin-extension'** 이라는 기능을 지원하여 뷰 바인딩을 편하게 할 수 있도록 지원했다. <br>
+그러나, 이 기능을 통해 뷰바인딩을 하면, 바인딩 된 xml 파일이 제거되었을 때도 코드에서 검출을 못하는 <br>
+치명적 단점으로 인해 결국 **deprecated** 되었는데, 여기 repository의 **UI Programming**에서는 <br>
+**'kotlin-extension'** 이라는 기능을 사용했으나, **Part2** 부터는 이 기능을 사용하지 않고 <br>
+'kotlin-extension'을 대신하는 뷰바인딩 방법을 사용해서 코드를 작성하였다. :sunny: <br>
 
 ---
 > **'kotlin-extension'** 을 대체하는 방법은 여러가지이지만, 이곳 repository에서 **default** 로 채택한 뷰바인딩 방법은 아래의 사이트를 참조함
