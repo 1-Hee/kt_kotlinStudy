@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.kr.contentprovider2">
+
+    <!-- 사용할 다른 어플리케이션의 요소를 등록한다 (권장사항) 11버전부터 필요 -->
+    <queries>
+        <provider android:authorities="kr.co.dbprovider"/>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ContentProvider2">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <!-- 다른 어플이 가지고 있는 모든 요소 사용하겠다 -->
+    <!-- <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    -->
+    <!-- 11버전까지는 위 코드가 가능한데 지원 중단될 수 있음-->
+
+</manifest>
