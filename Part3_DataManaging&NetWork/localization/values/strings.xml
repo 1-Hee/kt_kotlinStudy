@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">localization</string>
+    <string name="str" translatable="false">hello</string>
+</resources>
