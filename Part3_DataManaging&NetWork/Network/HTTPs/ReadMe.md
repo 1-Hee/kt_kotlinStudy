@@ -7,8 +7,8 @@
 ![ddd](https://user-images.githubusercontent.com/79094527/164967057-f6665d1c-e2f7-4c7e-ae42-fd48880cb779.PNG)
 
 <br>
-본 폴더에서 연습한 예제들은 __Apache Tomcat__ 을 사용해서 구현함. <br>
-버전은 **9 버전**을 사용했으며, 아래의 사이트에서 다운로드함.<br>
+본 폴더에서 연습한 예제들은 Apache Tomcat 을 사용해서 구현함. <br>
+버전은 9 버전을 사용했으며, 아래의 사이트에서 다운로드함.<br>
 
 [https://tomcat.apache.org/download-90.cgi](https://tomcat.apache.org/download-90.cgi)
 <br>
