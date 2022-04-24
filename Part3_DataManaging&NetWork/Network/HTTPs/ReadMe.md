@@ -19,11 +19,11 @@
 * **check case1** JAVA_HOME 환경변수 설정 되었는지? <br>
 	* :point_right: 시스템 환경변수에서 자바가 설치된 jdk 폴더의 경로를 환경변수로 설정할 것
 * **check case2**
-	1. cmd창을 켜고 netstat -ano 입력
-	2. Ctrl + F 눌러서 8080 입력해서 2번째 행의 포트가 8080인 제일 오른쪽 행의 PID 값을 찾음
-	3. cmd 창에 taskkill /f /pid (2-2에서 찾은 PID, 숫자이고 킬때마다 변함)
-	4. cmd에서 다시 start.bat 실행
+	+ cmd창을 켜고 netstat -ano 입력
+	+ Ctrl + F 눌러서 8080 입력해서 2번째 행의 포트가 8080인 제일 오른쪽 행의 PID 값을 찾음
+	+ cmd 창에 taskkill /f /pid (2-2에서 찾은 PID, 숫자이고 킬때마다 변함)
+	+ cmd에서 다시 start.bat 실행
 
 check case2의 방법은 예제 연습하다가 값 송수신이 안되서 구글링 해본 결과<br>
-[https://0jaeyoung.tistory.com/10](https://0jaeyoung.tistory.com/10)
+[https://0jaeyoung.tistory.com/10](https://0jaeyoung.tistory.com/10)   
 위의 사이트에서 찾은 해결법이고 이 방법으로 송수신 안되던 문제 해결 했음<br>
