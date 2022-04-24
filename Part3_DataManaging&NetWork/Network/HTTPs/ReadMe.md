@@ -28,8 +28,11 @@
 <br>
 <br>
 <br>
-- - -
+---
+<br>
 check case2의 방법은 예제 연습하다가 값 송수신이 안되서 구글링 해본 결과<br>
 [https://0jaeyoung.tistory.com/10](https://0jaeyoung.tistory.com/10)   
-위의 사이트에서 찾은 해결법이고 이 방법으로 송수신 안되던 문제 해결 했음<br>
-- - -
+위의 사이트에서 찾은 해결법이고 이 방법으로 송수신 안되던 문제 해결 했음
+<br>
+---
+<br>
