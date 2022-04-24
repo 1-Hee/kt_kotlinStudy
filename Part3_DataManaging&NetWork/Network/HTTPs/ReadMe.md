@@ -18,9 +18,9 @@
 ![us2](https://user-images.githubusercontent.com/79094527/164966325-b154cd69-0372-43ea-95dc-3390d0cadeef.PNG)
 
 ### 아파치 사용중 start.bat 파일이 실행 직후 바로 꺼져버리며 실행이 안될 경우
-* **check case1** JAVA_HOME 환경변수 설정 되었는지? <br>
+* **check case1 JAVA_HOME 환경변수 설정 되었는지?** <br>
 	* :point_right: 시스템 환경변수에서 자바가 설치된 jdk 폴더의 경로를 환경변수로 설정할 것
-* **check case2**
+* **check case2 check case1이 제대로 되었는데 안되는 경우**
 	+ :point_right: cmd창을 켜고 netstat -ano 입력
 	+ :point_right: Ctrl + F 눌러서 8080 입력해서 2번째 행의 포트가 8080인 제일 오른쪽 행의 PID 값을 찾음
 	+ :point_right: cmd 창에 taskkill /f /pid (2-2에서 찾은 PID, 숫자이고 킬때마다 변함)
