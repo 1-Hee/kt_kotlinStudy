@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.MaterialComponents.Chip.Choice"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip1"
+        style="@style/Widget.MaterialComponents.Chip.Action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chip Action"
+        android:theme="@style/Theme.Material3.Light"
+        app:chipIcon="@drawable/ic_launcher_foreground"
+        app:chipIconVisible="false" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkable="true"
+        android:text="choice"
+        android:theme="@style/Theme.Material3.DayNight"
+        app:chipIconVisible="false" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip6"
+        style="@style/Widget.MaterialComponents.Chip.Entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Material3.Dark"
+        tools:text="chip entry" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip7"
+        style="@style/Widget.Material3.Chip.Filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Material3.DayNight"
+        tools:text="chip filter" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipgroup1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:checkedChip="@id/chip9"
+        app:singleSelection="true">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip8"
+            style="@style/Widget.Material3.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/Theme.Material3.Light"
+            tools:text="group1" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip9"
+            style="@style/Widget.Material3.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/Theme.Material3.Light"
+            tools:text="group2" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip10"
+            style="@style/Widget.Material3.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/Theme.Material3.Light"
+            tools:text="group3" />
+    </com.google.android.material.chip.ChipGroup>
+</LinearLayout>
