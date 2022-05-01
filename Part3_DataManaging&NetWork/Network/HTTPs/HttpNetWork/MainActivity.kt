@@ -20,7 +20,6 @@ class MainActivity : AppCompatActivity() {
 
 
         r.button.setOnClickListener {
-            r.textView.text =" 텍스트는 눌림"
             thread {
 
                 val site = "http://192.168.0.5:8080/basic.jsp"
